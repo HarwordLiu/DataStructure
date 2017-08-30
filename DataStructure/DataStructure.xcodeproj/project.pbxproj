@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C5643FCF1F50856800918109 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C5643FCE1F50856800918109 /* main.c */; };
 		C5643FD81F50861A00918109 /* Complexity.c in Sources */ = {isa = PBXBuildFile; fileRef = C5643FD61F50861A00918109 /* Complexity.c */; };
+		C5805DF81F56FC9C00E5ECFF /* SqList.c in Sources */ = {isa = PBXBuildFile; fileRef = C5805DF61F56FC9C00E5ECFF /* SqList.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		C5643FCE1F50856800918109 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		C5643FD61F50861A00918109 /* Complexity.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Complexity.c; sourceTree = "<group>"; };
 		C5643FD71F50861A00918109 /* Complexity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Complexity.h; sourceTree = "<group>"; };
+		C5805DF61F56FC9C00E5ECFF /* SqList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SqList.c; sourceTree = "<group>"; };
+		C5805DF71F56FC9C00E5ECFF /* SqList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqList.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,8 @@
 			children = (
 				C5643FD61F50861A00918109 /* Complexity.c */,
 				C5643FD71F50861A00918109 /* Complexity.h */,
+				C5805DF61F56FC9C00E5ECFF /* SqList.c */,
+				C5805DF71F56FC9C00E5ECFF /* SqList.h */,
 			);
 			path = Exmaples;
 			sourceTree = "<group>";
@@ -135,6 +140,7 @@
 			files = (
 				C5643FCF1F50856800918109 /* main.c in Sources */,
 				C5643FD81F50861A00918109 /* Complexity.c in Sources */,
+				C5805DF81F56FC9C00E5ECFF /* SqList.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +271,7 @@
 				C5643FD41F50856800918109 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
